@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Load more</title>
+</head>
+
+<body>
+    <header class="header">
+        <a class="btn-back" href="./index.html">Back</a>
+        <h1 class="title">Image search</h1>
+        <form class="search-form">
+            <input type="text" id="search-bar" name="searchQuery" autocomplete="off"
+                placeholder="What are we looking for?" />
+            <button id="search-button" type="submit"><img class="search-icon" src="./images/search-glass.svg"></button>
+        </form>
+    </header>
+    <main>
+
+        <div class="gallery"></div>
+
+        <div class="btn__wrapper">
+            <button type="button" class="btn__load-more is-hidden">Load More</button>
+        </div>
+
+    </main>
+    <script type="module" src="./js/loadmore.js"></script>
+</body>
+
+</html>
